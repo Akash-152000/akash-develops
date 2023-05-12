@@ -1,0 +1,43 @@
+.skills{
+    margin-left: 4rem;
+}
+
+.skill-row{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+
+.skill-col{
+  margin-bottom: 60px;
+}
+  
+
+  progress {
+    border: none;
+    /* width: 400px; */
+    height: 10px; 
+    /* background: crimson; */
+  }
+  
+  progress {
+    color: lightblue;
+  }
+  
+  progress::-moz-progress-bar {
+    background: lightblue;
+  }
+  
+  progress::-webkit-progress-value {
+    background: #ffca18;
+  }
+  
+ .skill{
+    color:White;
+    font-weight: bold;
+    
+ }
+
+ .skill-desc{
+    color:white;
+ }

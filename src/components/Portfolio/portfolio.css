@@ -1,0 +1,71 @@
+.portfolio{
+    margin-left: 4rem;
+    margin-bottom: 100px;
+}
+
+.row{
+    margin-bottom: 40px;
+    display: flex;
+    overflow-x:auto ;
+}
+.row::-webkit-scrollbar{
+    display: none;
+}
+
+.col{
+    margin-right: 40px;
+}
+
+
+
+.portfolio-image{
+    cursor: pointer;
+    height:200px;
+    width:408px;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+/* .portfolio-image:hover{
+    height: 300px;
+    width:600px;
+    transition: 0.5s ease;
+} */
+
+.name{
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.name:hover{
+    color:#ffca18;
+    cursor: pointer;
+    font-size: 25px;
+    transition: 0.5s ease;
+}
+
+.aqua{
+    background-image: url(../../images/aqua.png);
+    
+}
+.showtime{
+    background-image: url(../../images/showtime.png);
+}
+.agency{
+    background-image: url(../../images/agency.png);
+}
+
+.books{
+    background-image: url(../../images/booksnbarbells.png);
+}
+
+.aesthetic{
+    background-image: url(../../images/aesthetic.png);
+}
+
+.rooms{
+    background-image: url(../../images/rooms.png);
+}

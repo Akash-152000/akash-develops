@@ -1,0 +1,12 @@
+.home{
+    display: flex;
+}
+
+.contain{
+    overflow-y: auto;
+    width: 50vw;
+}
+
+.blank{
+    height:120px;
+}

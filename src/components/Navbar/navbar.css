@@ -1,0 +1,39 @@
+.nav{
+    z-index: 99999;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:#585d65;
+    width:80vw;
+    padding: 15px;  
+    border-radius: 35px;
+    color:white;
+    left: 8%;
+    top:2%;
+    
+}
+
+.links ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.links ul li{
+    font-weight: bold;
+    padding-left:35px;
+}
+
+.links ul li:hover{
+    cursor: pointer;
+    color:#ffca18;
+    transition: 1s ease;
+}
+
+.logoimg{
+    height: 50px;
+    width: 50px;
+    /* object-fit: contain; */
+    /* background-size: contain; */
+}

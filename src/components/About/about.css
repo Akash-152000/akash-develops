@@ -1,0 +1,53 @@
+.about{
+    margin-left: 4rem;
+    padding-bottom: 80px;
+}
+
+.heading{
+    font-size: 30px;
+    color:white;
+    margin-top: 40px;
+}
+
+.mystory{
+    color:#ffca18;
+    margin-top: -30px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+.para1{
+    width: 500px;
+    color:white;
+    margin-bottom: 30px;
+}
+.para2{
+    width: 500px;
+    color:white;
+    margin-bottom: 30px;
+}
+
+.myself{
+    display:flex
+}
+
+.col1{
+    color:#ffca18;
+    font-weight: bold;
+}
+
+.col2{
+    padding:0 20px;
+    color:white;
+    font-weight: bold;
+}
+.col3{
+    color:#ffca18;
+    font-weight: bold;
+}
+
+.col4{
+    padding:0 15px;
+    color:white;
+    font-weight: bold;
+}
