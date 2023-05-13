@@ -34,8 +34,8 @@ const HomeContent = () => {
 
   return (
     <>
-      <Navbar handleRef1={handleRef1} handleRef2={handleRef2} handleRef3={handleRef3} handleRef4={handleRef4} handleRef5={handleRef5}/> 
       <div className="homeContent">
+      <Navbar handleRef1={handleRef1} handleRef2={handleRef2} handleRef3={handleRef3} handleRef4={handleRef4} handleRef5={handleRef5}/> 
         
         <div className="nameContainer">
           <h1 >Akash Yadav</h1>
@@ -51,7 +51,7 @@ const HomeContent = () => {
         
         <div className="button">
           <Button content="Contact me" color="#373B40" name="chevron-right" />
-          <Button content="Scroll down" color="#373B40" name="arrow-down" />
+          {/* <Button content="Scroll down" color="#373B40" name="arrow-down" /> */}
         </div>
         <hr />
         <div ref={ref1} >

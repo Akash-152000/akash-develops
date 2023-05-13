@@ -7,9 +7,7 @@
 
 
 .image{
-    /* height: 100%; */
     width: 100%;
-    /* object-fit: contain; */
     background-size: cover;
 }
 
@@ -21,3 +19,24 @@
     height: 100vh;
     width: 39.5vw;     
 }
+
+@media only screen and (max-width: 600px) {
+    .heroImage{
+        height: 50vh;
+        width: 100vw; 
+        margin-top: 30px;
+    }
+
+    .img-Overlay{
+        position: absolute;
+        top:1px;
+        z-index: 0;
+        background: #ffc91828;
+        /* background: rgba(255, 0, 0, 0.356); */
+        height: 50vh;
+        margin-top: 30px;
+        width: 100vw;     
+    }
+
+
+  }

@@ -22,6 +22,7 @@ const Navbar = (props) => {
         </ul>
       </div>
       <div className="download-cv"><Button content="Download CV" color="#585d65" borderColor="#f5f5f5" name="download" /></div>
+      {window.innerWidth<=600?<i  className="fa-solid fa-bars"></i>:<></>}
     </div>
   )
 }

@@ -6,8 +6,11 @@
     align-items: center;
     background:#585d65;
     width:80vw;
-    padding: 15px;  
-    border-radius: 35px;
+    padding-top: 15px;  
+    padding-right: 15px;  
+    padding-bottom: 15px;  
+    padding-left: 15px;  
+    border-radius: 40px;
     color:white;
     left: 8%;
     top:2%;
@@ -37,3 +40,37 @@
     /* object-fit: contain; */
     /* background-size: contain; */
 }
+
+@media only screen and (max-width: 600px) {
+
+    .nav{
+        z-index: 99999;
+        position:fixed;
+        display: flex;
+        justify-content:space-between;
+        align-items:center;
+        background:#585d65;
+        width:100%;
+        padding-top: 15px;  
+        padding-right: 85px;  
+        padding-bottom: 15px;  
+        padding-left: 15px;  
+        border-radius: 0px;
+        left: 0;
+        top: 0;
+        color:white;
+        
+    }
+
+    .links{
+        display: none;
+    }
+    .download-cv{
+        display: none;
+    }
+
+    .fa-bars{
+        font-size: 30px;
+        padding-right: 40px;
+    }
+  }
