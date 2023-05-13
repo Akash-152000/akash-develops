@@ -69,3 +69,41 @@
 .rooms{
     background-image: url(../../images/rooms.png);
 }
+
+
+
+
+ /* /////////////////////////////////////Mobile design/////////////////////////////////////// */
+
+
+ @media only screen and (max-width: 600px) {
+
+    .portfolio{
+        text-align: center;
+        margin-left: 0rem;
+        margin-bottom: 100px;
+    }
+    
+    .row{
+        margin-left: 14px;
+        margin-bottom: 40px;
+        display: flex;
+        overflow-x:auto ;
+    }
+
+    .col{
+        margin-right: 20px;
+    }
+    
+
+
+    .portfolio-image{
+        cursor: pointer;
+        height:151px;
+        width:299px;
+        background-size: cover;
+        background-position: center;
+        
+    }
+
+ }

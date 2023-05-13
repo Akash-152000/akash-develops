@@ -51,3 +51,72 @@
     color:white;
     font-weight: bold;
 }
+
+
+
+
+
+ /* /////////////////////////////////////////Mobile design///////////////////////////////////// */
+
+ @media only screen and (max-width: 600px) {
+    .about{
+        text-align: center;
+        margin-left: 0rem;
+        padding-bottom: 80px;
+    }
+    
+    .heading{
+        font-size: 20px;
+        color:white;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+    
+    .mystory{
+        color:#ffca18;
+        margin-top: 0px;
+        font-weight: bold;
+        margin-bottom: 60px;
+    }
+    
+    .para1{
+        width: 300px;
+        color:white;
+        margin-left: 12vw;
+        margin-bottom: 30px;
+    }
+    .para2{
+        width: 300px;
+        color:white;
+        margin-left: 12vw;
+        margin-bottom: 30px;
+    }
+    
+    .myself{
+        display:flex;
+        margin-left: 6rem;
+    }
+    
+    .col1{
+        text-align: end;
+        color:#ffca18;
+        font-weight: bold;
+    }
+    
+    .col2{
+        text-align: left;
+        padding-left:10px;
+        color:white;
+        font-weight: bold;
+    }
+    .col3{
+        color:#ffca18;
+        font-weight: bold;
+    }
+    
+    .col4{
+        padding:0 15px;
+        color:white;
+        font-weight: bold;
+    }
+ }

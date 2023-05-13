@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import './navbar.css'
 import logo from '../../images/fotor_2023-5-9_17_3_58.png'
 import Button from '../Button/Button'
-import handleScroll from '../../context/handleScroll'
+
 
 const Navbar = (props) => {
 

@@ -73,6 +73,7 @@ const HomeContent = () => {
         <div ref={ref5}>
           <Contact/>
         </div>
+        <hr />
         
       </div>
     </>

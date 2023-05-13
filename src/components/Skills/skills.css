@@ -41,3 +41,58 @@
  .skill-desc{
     color:white;
  }
+
+
+ /* /////////////////////////////////////Mobile design/////////////////////////////////////// */
+
+
+ @media only screen and (max-width: 600px) {
+  
+
+  .skills{
+    margin-left: 0rem;
+    text-align: center;
+}
+
+.skill-row{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-left: 15px;
+}
+
+.skill-col{
+  margin-bottom: 30px;
+}
+  
+
+  progress {
+    border: none;
+    /* width: 400px; */
+    height: 10px; 
+    /* background: crimson; */
+  }
+  
+  progress {
+    color: lightblue;
+  }
+  
+  progress::-moz-progress-bar {
+    background: lightblue;
+  }
+  
+  progress::-webkit-progress-value {
+    background: #ffca18;
+  }
+  
+ .skill{
+    color:White;
+    font-weight: bold;
+    
+ }
+
+ .skill-desc{
+    color:white;
+ }
+
+}

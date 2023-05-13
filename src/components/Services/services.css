@@ -18,3 +18,34 @@
     color:#ffca18;
     font-size: 30px;
 }
+
+
+
+/* //////////////////////////////////////////////////Mobile//////////////////////////////////// */
+
+@media only screen and (max-width: 600px) {
+    .services{
+        text-align: center;
+        margin-left: 0rem;
+        padding-bottom: 80px;
+    }
+
+    
+    
+    .service-row1{
+        display: flex;
+        margin-bottom: 40px;
+    }
+    
+    .service-col{
+        margin-right: 0px;
+        color:white;
+        width:250px;
+    }
+    
+    .chrome{
+        color:#ffca18;
+        font-size: 30px;
+    }
+    
+  }

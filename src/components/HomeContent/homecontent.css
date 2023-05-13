@@ -78,8 +78,8 @@
 }
 
 .button{ 
-    display: flex;
-    justify-content: space-between;
+    /* display: flex; */
+    /* justify-content: space-between; */
     margin-left: 4rem;
     margin-right: 4rem;
     margin-top: 34px;
@@ -87,16 +87,19 @@
 }
 
 
+/* ///////////////////////////////Mobile screen///////////////////////////////////////////////////// */
+
 @media only screen and (max-width: 600px) {
     .homeContent{
-        overflow-y: auto;
+        max-width: 100%;
+        overflow-x: hidden;
         background: #373B40;
-        height: 100vh;
+        height: 100%;
         width: 100vw;
         border-left: 1px solid grey;
-        text-align: center;
+        /* text-align: center; */
         
-    } 
+    }   
 
     .nameContainer{
         z-index: 99;
@@ -113,10 +116,11 @@
     }
 
     .designation{
+        
         padding-left: 0px;
         text-align: center;
         width: fit-content;
-        margin-left: 0rem;
+        margin-left: 33vw;
         font-weight: bold;
         font-size: 17px;
         color: #ffca18;
@@ -157,18 +161,20 @@
     
     .description{
         margin-top: 24px;
-        margin-left: 0rem;
+        margin-left: 24vw;
         font-weight: bold;
         color: #f5f5f5;
         font-size: 14px;
-        width: 300px;
+        width: 200px;
+        text-align: center;
     }
     
     .button{ 
+        text-align: center;
         display: flex;
         justify-content: space-between;
-        margin-left: 4rem;
-        margin-right: 4rem;
+        margin-left: 7rem;
+        margin-right: 0rem;
         margin-top: 34px;
         margin-bottom: 40px;
     }
