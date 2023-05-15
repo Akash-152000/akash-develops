@@ -9,8 +9,7 @@ import Contact from "../Contact/Contact";
 import Navbar from "../Navbar/Navbar";
 import { useRef } from "react";
 import NavigationSidebar from "../NavigationSidebar/NavigationSidebar";
-import { Document, Page } from "react-pdf";
-
+import Typewriter from "typewriter-effect";
 
 const HomeContent = () => {
   const [width, setWidth] = useState("0vw");
@@ -84,10 +83,19 @@ const HomeContent = () => {
 
         <div className="nameContainer">
           <h1>Akash Yadav</h1>
-          
         </div>
         <div className="designation">
-          <div className="designation-text"> Web Developer</div>
+          <div className="designation-text">
+            {" "}
+            <Typewriter
+            
+            options={{
+              strings: ['Web Developer', 'Wordpress Developer', 'Web Designer'],
+              autoStart: true,
+              loop: true,
+            }}
+            />
+          </div>
         </div>
         <div className="description">
           Hello! I am Full stack Developer from Mumbai, India. I have rich
@@ -96,7 +104,7 @@ const HomeContent = () => {
         </div>
 
         <div onClick={handleRef5} className="button">
-          <Button  content="Contact me" color="#373B40" name="chevron-right" />
+          <Button content="Contact me" color="#373B40" name="chevron-right" />
           {/* <Button content="Scroll down" color="#373B40" name="arrow-down" /> */}
         </div>
         <hr />
