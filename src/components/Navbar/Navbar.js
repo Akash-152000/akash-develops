@@ -13,7 +13,7 @@ const Navbar = (props) => {
       </div>
       <div className="links">
         <ul>
-          <li>Home</li>
+          <li >Home</li>
           <li onClick={props.handleRef1}>About</li>
           <li>Resume</li>
           <li onClick={props.handleRef4}>Portfolio</li>
@@ -22,7 +22,7 @@ const Navbar = (props) => {
         </ul>
       </div>
       <div className="download-cv"><Button content="Download CV" color="#585d65" borderColor="#f5f5f5" name="download" /></div>
-      {window.innerWidth<=600?<i  className="fa-solid fa-bars"></i>:<></>}
+      {window.innerWidth<=600?<i onClick={props.handleSidebar} className="fa-solid fa-bars"></i>:<></>}
     </div>
   )
 }

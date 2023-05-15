@@ -7,9 +7,7 @@ import HomeSocials from "../HomeSocials/HomeSocials";
 const Home = () => {
   return (
     <>
-    {console.log(window.innerWidth)}
-      {window.innerWidth > 600 ? (
-        
+      {window.innerWidth > 600 ? (  
         <div className="home">
           <HomeSocials />
           <HomeContent />
