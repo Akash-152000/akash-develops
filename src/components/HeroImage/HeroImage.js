@@ -7,7 +7,6 @@ const HeroImage = () => {
     <div className='heroImage'>
       <img className='image' src={image} alt="" />
       <div className='img-Overlay'></div>
-      
     </div>
   )
 }

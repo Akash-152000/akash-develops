@@ -9,15 +9,10 @@ const About = () => {
       </div>
       <div className="mystory">MY STORY</div>
       <div className="para1">
-        Pellentesque posuere. Praesent turpis. Aenean posuere, tortor sed cursus
-        feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis
-        lacus. Donec elit libero, sodales nec, volutpat a, suscipit non, turpis.
+        I have Completed my Engineering Graduation in Information Technology from Mumbai university, I always loved writing code that could be usefull and from 3rd semester I started coding websites.
       </div>
       <div className="para2">
-        Pellentesque posuere. Praesent turpis. Aenean posuere, tortor sed cursus
-        feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis
-        lacus. Donec elit libero, sodales nec, volutpat a, suscipit non, turpis.
-        Donec elit libero, sodales nec, volutpat a, suscipit non, turpis.
+        Now I can build any website or web application using the latest tools and technology, I can also build a website using wordpress, I have learned a bit of desiging as well. I am currently in a job and will quit it soon to work as web desveloper or would do full time freelancing.
       </div>
       {window.innerWidth <= 600 ? (
         <div className="myself">
