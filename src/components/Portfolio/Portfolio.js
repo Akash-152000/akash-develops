@@ -96,6 +96,7 @@ const Portfolio = () => {
               className="name"
               href="http://akashdevelops.com/"
               target="_blank"
+              rel="noreferrer"
             >
               akashdevelops.com
             </a>{" "}
@@ -110,6 +111,7 @@ const Portfolio = () => {
               className="name"
               href="https://booksnbarbells.in/"
               target="_blank"
+              rel="noreferrer"
             >
               booksnbarbells.in
             </a>
@@ -120,7 +122,7 @@ const Portfolio = () => {
             <div className="portfolio-image aesthetic"></div>
           </a>
           <div className="name">
-            <a className="name" href="https://simplyaesthetic.shop/" target="_blank">
+            <a className="name" href="https://simplyaesthetic.shop/" target="_blank" rel="noreferrer">
             simplyaesthetic.shop
             </a>
           </div>
@@ -130,7 +132,7 @@ const Portfolio = () => {
             <div className="portfolio-image rooms"></div>
           </a>
           <div className="name">
-            <a className="name" href="https://roomsandshrooms.online/" target="_blank">
+            <a className="name" href="https://roomsandshrooms.online/" target="_blank" rel="noreferrer">
             roomsandshrooms.online
             </a>
           </div>
