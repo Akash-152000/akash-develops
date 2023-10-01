@@ -1,6 +1,5 @@
 import React from "react";
 import "./portfolio.css";
-import aqua from "../../images/aqua.png";
 
 const Portfolio = () => {
   return (
@@ -10,6 +9,35 @@ const Portfolio = () => {
       </div>
       <div className="mystory">MY WORK</div>
       <div className="row">
+        <div className="col">
+          <a href="https://inckfoundation.org/" target="_blank" rel="noreferrer">
+            <div className="portfolio-image inck"></div>
+          </a>
+          <div className="name">
+            <a
+              className="name"
+              href="https://inckfoundation.org/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              inckfoundation.org
+            </a>
+          </div>
+        </div>
+        <div className="col">
+          <a href="https://alpha-modern.in/" target="_blank" rel="noreferrer">
+            <div className="portfolio-image alpha"></div>
+          </a>
+          <div className="name">
+            <a
+              className="name"
+              href="https://alpha-modern.in/"
+              target="_blank"
+            >
+              alpha-moder.in
+            </a>
+          </div>
+        </div>
         <div className="col">
           <a href="https://aaquapurifierservices.com/" target="_blank">
             <div className="portfolio-image aqua"></div>
@@ -24,20 +52,7 @@ const Portfolio = () => {
             </a>
           </div>
         </div>
-        <div className="col">
-          <a href="https://showtimescoop.in/">
-            <div className="portfolio-image showtime"></div>
-          </a>
-          <div className="name">
-            <a
-              className="name"
-              href="https://showtimescoop.in/"
-              target="_blank"
-            >
-              showtimescoop.in
-            </a>{" "}
-          </div>
-        </div>
+        
         <div className="col">
           <a href="https://desiginingagency.online/">
             <div className="portfolio-image agency"></div>
@@ -54,6 +69,34 @@ const Portfolio = () => {
         </div>
       </div>
       <div className="row">
+      <div className="col">
+          <a href="https://showtimescoop.in/">
+            <div className="portfolio-image showtime"></div>
+          </a>
+          <div className="name">
+            <a
+              className="name"
+              href="https://showtimescoop.in/"
+              target="_blank"
+            >
+              showtimescoop.in
+            </a>{" "}
+          </div>
+        </div>
+        <div className="col">
+          <a href="http://akashdevelops.com/">
+            <div className="portfolio-image akash"></div>
+          </a>
+          <div className="name">
+            <a
+              className="name"
+              href="http://akashdevelops.com/"
+              target="_blank"
+            >
+              akashdevelops.com
+            </a>{" "}
+          </div>
+        </div>
         <div className="col">
           <a href="https://booksnbarbells.in/">
             <div className="portfolio-image books"></div>

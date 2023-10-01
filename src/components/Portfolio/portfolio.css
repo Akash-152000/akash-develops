@@ -51,8 +51,19 @@
     background-image: url(../../images/aqua.png);
     
 }
+.inck{
+    background-image: url(../../images/inck.png);
+    
+}
+.alpha{
+    background-image: url(../../images/alpha.png);
+    
+}
 .showtime{
     background-image: url(../../images/showtime.png);
+}
+.akash{
+    background-image: url(../../images/akash.png);
 }
 .agency{
     background-image: url(../../images/agency.png);
