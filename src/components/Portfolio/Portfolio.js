@@ -33,13 +33,14 @@ const Portfolio = () => {
               className="name"
               href="https://alpha-modern.in/"
               target="_blank"
+              rel="noreferrer"
             >
               alpha-moder.in
             </a>
           </div>
         </div>
         <div className="col">
-          <a href="https://aaquapurifierservices.com/" target="_blank">
+          <a href="https://aaquapurifierservices.com/" target="_blank" rel="noreferrer">
             <div className="portfolio-image aqua"></div>
           </a>
           <div className="name">
@@ -47,6 +48,7 @@ const Portfolio = () => {
               className="name"
               href="https://aaquapurifierservices.com/"
               target="_blank"
+              rel="noreferrer"
             >
               aaquapurifierservices.com
             </a>
@@ -62,6 +64,7 @@ const Portfolio = () => {
               className="name"
               href="https://desiginingagency.online/"
               target="_blank"
+              rel="noreferrer"
             >
               desiginingagency.online
             </a>
@@ -78,6 +81,7 @@ const Portfolio = () => {
               className="name"
               href="https://showtimescoop.in/"
               target="_blank"
+              rel="noreferrer"
             >
               showtimescoop.in
             </a>{" "}
