@@ -1,30 +1,27 @@
-.portfolio{
-    margin-left: 4rem;
-    margin-bottom: 100px;
+.portfolio {
+  margin-left: 4rem;
+  margin-bottom: 100px;
 }
 
-.row{
-    margin-bottom: 40px;
-    display: flex;
-    overflow-x:auto ;
+.row {
+  margin-bottom: 40px;
+  display: flex;
+  overflow-x: auto;
 }
-.row::-webkit-scrollbar{
-    display: none;
-}
-
-.col{
-    margin-right: 40px;
+.row::-webkit-scrollbar {
+  display: none;
 }
 
+.col {
+  margin-right: 40px;
+}
 
-
-.portfolio-image{
-    cursor: pointer;
-    height:200px;
-    width:408px;
-    background-size: cover;
-    background-position: center;
-    
+.portfolio-image {
+  cursor: pointer;
+  height: 200px;
+  width: 408px;
+  background-size: cover;
+  background-position: center;
 }
 
 /* .portfolio-image:hover{
@@ -33,88 +30,66 @@
     transition: 0.5s ease;
 } */
 
-.name{
-    color:white;
-    font-size: 20px;
+.name {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+  text-decoration: none;
+}
+.name:hover {
+  color: #ffca18;
+  cursor: pointer;
+  font-size: 25px;
+  transition: 0.5s ease;
+}
+
+.blueorb {
+  background-image: url(../../images/blueorb.png);
+}
+
+.inck {
+  background-image: url(../../images/inck.png);
+}
+.alpha {
+  background-image: url(../../images/alpha.png);
+}
+.showtime {
+  background-image: url(../../images/showtime.png);
+}
+.akash {
+  background-image: url(../../images/akash.png);
+}
+
+.kdexpo {
+  background-image: url(../../images/kdexpo.png);
+}
+
+/* /////////////////////////////////////Mobile design/////////////////////////////////////// */
+
+@media only screen and (max-width: 600px) {
+  .portfolio {
     text-align: center;
-    margin-top: 10px;
-    text-decoration: none;
-}
-.name:hover{
-    color:#ffca18;
+    margin-left: 0rem;
+    margin-bottom: 100px;
+  }
+
+  .row {
+    margin-left: 14px;
+    margin-bottom: 40px;
+    display: flex;
+    overflow-x: auto;
+  }
+
+  .col {
+    margin-right: 20px;
+  }
+
+  .portfolio-image {
     cursor: pointer;
-    font-size: 25px;
-    transition: 0.5s ease;
+    height: 151px;
+    width: 299px;
+    background-size: cover;
+    background-position: center;
+  }
 }
-
-.aqua{
-    background-image: url(../../images/aqua.png);
-    
-}
-.inck{
-    background-image: url(../../images/inck.png);
-    
-}
-.alpha{
-    background-image: url(../../images/alpha.png);
-    
-}
-.showtime{
-    background-image: url(../../images/showtime.png);
-}
-.akash{
-    background-image: url(../../images/akash.png);
-}
-.agency{
-    background-image: url(../../images/agency.png);
-}
-
-.books{
-    background-image: url(../../images/booksnbarbells.png);
-}
-
-.aesthetic{
-    background-image: url(../../images/aesthetic.png);
-}
-
-.rooms{
-    background-image: url(../../images/rooms.png);
-}
-
-
-
-
- /* /////////////////////////////////////Mobile design/////////////////////////////////////// */
-
-
- @media only screen and (max-width: 600px) {
-
-    .portfolio{
-        text-align: center;
-        margin-left: 0rem;
-        margin-bottom: 100px;
-    }
-    
-    .row{
-        margin-left: 14px;
-        margin-bottom: 40px;
-        display: flex;
-        overflow-x:auto ;
-    }
-
-    .col{
-        margin-right: 20px;
-    }
-    
-
-
-    .portfolio-image{
-        cursor: pointer;
-        height:151px;
-        width:299px;
-        background-size: cover;
-        background-position: center;
-        
-    }
-
- }

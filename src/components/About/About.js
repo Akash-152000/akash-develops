@@ -9,10 +9,15 @@ const About = () => {
       </div>
       <div className="mystory">MY STORY</div>
       <div className="para1">
-        I have Completed my Engineering Graduation in Information Technology from Mumbai university, I always loved writing code that could be usefull and from 3rd semester I started coding websites.
+        I have Completed my Engineering Graduation in Information Technology
+        from Mumbai university, I always loved writing code that could be
+        usefull and from 3rd semester I started coding websites.
       </div>
       <div className="para2">
-        Now I can build any website or web application using the latest tools and technology, I can also build a website using wordpress, I have learned a bit of desiging as well. I am currently in a job and will quit it soon to work as web desveloper or would do full time freelancing.
+        Now I can build any website or web application using the latest tools
+        and technology, I can also build a website using wordpress, I have
+        learned a bit of desiging as well. I am currently freelancing and
+        looking for opportunities.
       </div>
       {window.innerWidth <= 600 ? (
         <div className="myself">
@@ -30,7 +35,10 @@ const About = () => {
             <div>+91 8779237334</div>
             <div>India</div>
             <div>Mumbai</div>
-            <div>akashdevelops1 <br />@gmail.com</div>
+            <div>
+              akashyadav90000 <br />
+              @gmail.com
+            </div>
           </div>
         </div>
       ) : (
@@ -53,7 +61,7 @@ const About = () => {
           <div className="col4">
             <div>India</div>
             <div>Mumbai</div>
-            <div>akashdevelops1@gmail.com</div>
+            <div>akashyadav90000@gmail.com</div>
           </div>
         </div>
       )}

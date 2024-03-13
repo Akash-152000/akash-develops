@@ -10,7 +10,30 @@ const Portfolio = () => {
       <div className="mystory">MY WORK</div>
       <div className="row">
         <div className="col">
-          <a href="https://inckfoundation.org/" target="_blank" rel="noreferrer">
+          <a
+            href="https://blueorb.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="portfolio-image blueorb"></div>
+          </a>
+          <div className="name">
+            <a
+              className="name"
+              href="https://blueorb.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              blueorb.netlify.app
+            </a>
+          </div>
+        </div>
+        <div className="col">
+          <a
+            href="https://inckfoundation.org/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <div className="portfolio-image inck"></div>
           </a>
           <div className="name">
@@ -35,44 +58,13 @@ const Portfolio = () => {
               target="_blank"
               rel="noreferrer"
             >
-              alpha-moder.in
-            </a>
-          </div>
-        </div>
-        <div className="col">
-          <a href="https://aaquapurifierservices.com/" target="_blank" rel="noreferrer">
-            <div className="portfolio-image aqua"></div>
-          </a>
-          <div className="name">
-            <a
-              className="name"
-              href="https://aaquapurifierservices.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              aaquapurifierservices.com
-            </a>
-          </div>
-        </div>
-        
-        <div className="col">
-          <a href="https://desiginingagency.online/">
-            <div className="portfolio-image agency"></div>
-          </a>
-          <div className="name">
-            <a
-              className="name"
-              href="https://desiginingagency.online/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              desiginingagency.online
+              alpha-modern.in
             </a>
           </div>
         </div>
       </div>
       <div className="row">
-      <div className="col">
+        <div className="col">
           <a href="https://showtimescoop.in/">
             <div className="portfolio-image showtime"></div>
           </a>
@@ -87,54 +79,20 @@ const Portfolio = () => {
             </a>{" "}
           </div>
         </div>
+
         <div className="col">
-          <a href="http://akashdevelops.com/">
-            <div className="portfolio-image akash"></div>
+          <a href="https://kdexpo.in/">
+            <div className="portfolio-image kdexpo"></div>
           </a>
           <div className="name">
             <a
               className="name"
-              href="http://akashdevelops.com/"
+              href="https://kdexpo.in/"
               target="_blank"
               rel="noreferrer"
             >
-              akashdevelops.com
+              kdexpo.in
             </a>{" "}
-          </div>
-        </div>
-        <div className="col">
-          <a href="https://booksnbarbells.in/">
-            <div className="portfolio-image books"></div>
-          </a>
-          <div className="name">
-            <a
-              className="name"
-              href="https://booksnbarbells.in/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              booksnbarbells.in
-            </a>
-          </div>
-        </div>
-        <div className="col">
-          <a href="https://simplyaesthetic.shop//">
-            <div className="portfolio-image aesthetic"></div>
-          </a>
-          <div className="name">
-            <a className="name" href="https://simplyaesthetic.shop/" target="_blank" rel="noreferrer">
-            simplyaesthetic.shop
-            </a>
-          </div>
-        </div>
-        <div className="col">
-          <a href="https://roomsandshrooms.online/">
-            <div className="portfolio-image rooms"></div>
-          </a>
-          <div className="name">
-            <a className="name" href="https://roomsandshrooms.online/" target="_blank" rel="noreferrer">
-            roomsandshrooms.online
-            </a>
           </div>
         </div>
       </div>
